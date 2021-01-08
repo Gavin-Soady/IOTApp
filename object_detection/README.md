@@ -1,60 +1,98 @@
 # Down-Boy
 Student Name: Gavin Soady Student ID: 2009115411
+
 Monty our pet dog knows he’s not allowed on the couch, but will chance his paw every now again when we are not looking. Despite his sneaky demeanor he is very obedient and will get down the second he’s told.
+
 So my project proposal is called Down-boy. Using the raspberry pi camera to track Monty's movement if/when he gets up on the couch the Application should do a number of things.
+
 Detect dog "object" on the couch(camera set-up to only have couch in view) using tensor flow and openvino.
+
 Take a picture of the rule breaker.
+
 Upload to firebase. store and feed lattest image to web application
+
 send a sms to my phone via twilio with link to down-boy web app.
 
 Future Development:
+
 Broadcast a prerecorded message to a smart speaker to tell the mutineer to get down.
+
 Wrap web application in android app via phone gap build.
+
 If second infringement is caught within a determined period of time, send a picture to a phone application.
+
 The phone app will allow the user to Broadcast a message to the smart speaker, request an up to date picture and option to connect via live stream.
+
 Disconnect from live stream and reset procedure. 
 
 Tools, Technologies and Equipment 
-Hardware:
-Raspberry Pi
-Raspberry Pi Camera
-Google home mini smart speaker
-Mobile phone
+  
+  Hardware:
+ 
+ Raspberry Pi
+ 
+ Raspberry Pi Camera
+ 
+ Google home mini smart speaker
+ 
+ Mobile phone
 
 Software for Raspberry Pi:
-Python
-Raspberry Pi OS
-picamera
-tensor flow 
-twilio
-firebase
+  
+  Python
+  
+  Raspberry Pi OS
+  
+  picamera
+  
+  tensor flow 
+  
+  twilio
+  
+  firebase
 
 Software for Mobile Application:
-HTML5/CSS3/JavaScript
-Java
-Play Framework(This may have to be deployed on a separate website
-Phone Gap/Ionic
+  
+  HTML5/CSS3/JavaScript
+  
+  Java
+  
+  Play Framework(This may have to be deployed on a separate website
+  
+  Phone Gap/Ionic
 
-Installation instructions:
+  Installation instructions:
 
 Dependencies: 
+
 Set up Firebase account
+  
   https://tutors-svelte.netlify.app/#/lab/wit-hdip-comp-sci-2020-computer-systems.netlify.app/topic-10-week10/unit-2/book-a
   
 Create Glitch app:
+  
   https://tutors-svelte.netlify.app/#/lab/wit-hdip-comp-sci-2020-computer-systems.netlify.app/topic-10-week10/unit-2/book-a/04
   
 Install tensorflow:
+  
   pip3 install tensorflow
+  
   sudo apt-get install libatlas-base-dev
+  
   sudo pip3 install pillow lxml jupyter matplotlib cython
+  
   sudo apt-get install python-tk
  
 Install OpenCV
+  
   sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
+  
   sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+  
   sudo apt-get install libxvidcore-dev libx264-dev
+  
   sudo apt-get install qt4-dev-tools libatlas-base-dev
+  
   sudo pip3 install opencv-python
   
 Install Protobuf
