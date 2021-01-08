@@ -64,22 +64,31 @@ Set Up application
   mkdir Down-boy
   cd Down-boy 
   git clone --depth 1 https://github.com/Gavin-Soady/IOTAPP.git
+  
   Natigate to:
     sudo nano ~/.bashrc
-  Enter at the end:
+ 
+ Enter at the end:
     export PYTHONPATH=$PYTHONPATH:/home/pi/Down-boy/object_detection
+  
   Navigate back to Down-boy directory
     protoc object_detection/protos/*.proto --python_out=.
+  
   Navigate back to Down-boy/object_detection directory
     move storeFileFb.py here
     move serviceAccountKey.json here
+  
   Download tensor flow models:
     wget http://download.tensorflow.org/models/object_detection/ssdlite_mobilenet_v2_coco_2018_05_09.tar.gz
-   Unpack with:
+  
+  Unpack with:
     tar -xzvf ssdlite_mobilenet_v2_coco_2018_05_09.tar.gz
-   Set up twillio account 
+  
+  Set up twillio account 
     https://www.twilio.com/docs/sms/quickstart/python
-   Set Envirnment variables:
+  
+  Set Envirnment variables:
     https://www.twilio.com/blog/2017/01/how-to-set-environment-variables.html
-   Run Script:
+  
+  Run Script:
    Python Down-Boy.py
