@@ -1,4 +1,4 @@
-######### Raspberry Pi Pet Detector Camera using TensorFlow Object Detection API #########
+######### Down-boy Camera using TensorFlow Object Detection API #########
 #
 # ref: https://github.com/EdjeElectronics/TensorFlow-Object-Detection-on-the-Raspberry-Pi
 # ref: https://tutors-svelte.netlify.app/#/lab/wit-hdip-comp-sci-2020-computer-systems.netlify.app/topic-10-week10/unit-2/book-a
@@ -6,7 +6,7 @@
 #
 # Description:
 #
-# This script implements a "pet detector" that alerts the user if a dog has
+# This script implements Down-boy that alerts the user if a dog has
 # jumped up on the couch. It takes video frames from a Picamera
 # or USB webcam, passes them through a TensorFlow object detection model,
 # determines dog has been detected in the image, checks the location
